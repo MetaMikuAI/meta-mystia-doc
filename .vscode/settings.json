@@ -17,5 +17,12 @@
 		"package.json": ".*ignore, .*rc, .editorconfig, .git*, pnpm-lock.yaml",
 		"README.md": "LICENSE"
 	},
-	"cSpell.words": ["autospace", "commitlint", "mathjax", "miku", "mystia"]
+	"cSpell.words": [
+		"autospace",
+		"commitlint",
+		"mathjax",
+		"mdbook",
+		"miku",
+		"mystia"
+	]
 }

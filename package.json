@@ -1,6 +1,7 @@
 {
 	"private": true,
 	"scripts": {
+		"build": "mdbook build",
 		"format": "prettier --cache --write .",
 		"preinstall": "npx only-allow pnpm",
 		"prepare": "husky",
