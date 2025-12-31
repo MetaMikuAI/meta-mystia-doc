@@ -22,6 +22,12 @@ body {
 	text-spacing-trim: normal;
 }
 
+p > img:only-child,
+p > a:only-child > img:only-child {
+	display: block;
+	margin: 0 auto;
+}
+
 .menu-title {
 	font-weight: 400;
 }
