@@ -5,6 +5,7 @@
 # 用户指南
 
 - [如何安装](./user_guide/how_to_install.md)
+- [如何使用](./user_guide/how_to_use.md)
 
 # 开发者指南
 
