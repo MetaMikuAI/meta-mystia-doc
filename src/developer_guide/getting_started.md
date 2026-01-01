@@ -9,7 +9,7 @@
 1. **.NET 10 SDK**：
    [https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)
 
-2. 一份《[东方夜雀食堂](https://store.steampowered.com/app/1584090)》的**合法拷贝**（Steam 版本）。
+2. 一份《[东方夜雀食堂](https://store.steampowered.com/app/1584090)》的**合法拷贝**（Steam版本）。
 
 3. 克隆**MetaMystia**仓库：
    [https://github.com/MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)
