@@ -4,13 +4,13 @@
 
 > 让原本只能单人游玩的夜雀食堂，真正“热闹”起来。
 
-通过MetaMystia，你可以和朋友一起经营食堂、同步操作、共同面对客人的需求，把单机体验扩展为协作式的联机玩法。
+通过MetaMystia，您可以与朋友一同经营食堂、同步行动与操作，共同应对顾客需求，将原本的单机体验扩展为协作式的联机玩法。
 
 ## 这是什么？
 
 《东方夜雀食堂》原生并不支持联机游玩。MetaMystia通过Mod的方式，为游戏引入了**多人联机能力**。
 
-你可以将它理解为：
+您可以将它理解为：
 
 - 一个让夜雀食堂“支持多人”的功能扩展
 - 一个面向玩家与开发者持续演进的联机框架
@@ -68,18 +68,21 @@ MetaMystia对顾客系统进行了细致的同步支持，包括：
 
 ## 资源扩展工具
 
-为了方便制作和管理所需的自定义资源，项目还提供了配套工具：**MetaMystia‑ResourceEx‑Editor**
+[**ResourceEx**](https://github.com/MetaMikuAI/MetaMystia/tree/main/ResourceEx)是MetaMystia提供的资源扩展模块，旨在帮助创作者为《东方夜雀食堂》添加**自定义资源内容**。
 
-这是一个为MetaMystia开发的**在线资源包编辑器**，用于创建和编辑资源扩展内容。
+为了方便创作者们为游戏添加自定义资源，项目还提供了配套工具：**MetaMystia‑ResourceEx‑Editor**
 
-- 提供可视化的资源编辑能力
-- 无需复杂环境即可使用
-- 适合希望自定义内容或参与制作的用户
+这是一个为MetaMystia开发的**在线资源描述文件编辑器**，用于创建和编辑扩展资源描述文件（`ResourceEx.json`）。
 
-GitHub地址：
-[https://github.com/MetaMikuAI/MetaMystia-ResourceEx-Editor](https://github.com/MetaMikuAI/MetaMystia-ResourceEx-Editor)
+- 可视化编辑资源描述，无需手写 JSON
+- 无需本地开发环境，浏览器即可使用
+- 适合希望尝试自定义内容或参与制作的玩家与创作者
 
-在线体验：[https://editor.meta-mystia.izakaya.cc](https://editor.meta-mystia.izakaya.cc)
+相关链接：
+
+- GitHub：[https://github.com/MetaMikuAI/MetaMystia-ResourceEx-Editor](https://github.com/MetaMikuAI/MetaMystia-ResourceEx-Editor)
+- 使用说明：[https://github.com/MetaMikuAI/MetaMystia/tree/main/ResourceEx](https://github.com/MetaMikuAI/MetaMystia/tree/main/ResourceEx)
+- 在线体验：[https://editor.meta-mystia.izakaya.cc](https://editor.meta-mystia.izakaya.cc)
 
 ## 鸣谢
 
@@ -89,4 +92,4 @@ GitHub地址：
 
 ---
 
-MetaMystia并非官方作品，而是出于对游戏的喜爱与探索精神而诞生的玩家项目。希望它能为你和朋友带来不一样的夜雀食堂体验。
+MetaMystia并非官方作品，而是出于对游戏的喜爱与探索精神而诞生的玩家项目。希望它能为您和朋友带来不一样的夜雀食堂体验。
