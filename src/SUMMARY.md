@@ -10,7 +10,8 @@
 # 开发者指南
 
 - [开发入门](./developer_guide/getting_started.md)
+- [自定义资源](./developer_guide/use_resource-ex.md)
 
 ---
 
-[贡献指南](misc/how_to_contribute.md)
+[贡献文档指南](misc/how_to_contribute.md)

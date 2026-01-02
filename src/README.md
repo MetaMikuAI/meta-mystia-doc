@@ -66,24 +66,6 @@ MetaMystia对顾客系统进行了细致的同步支持，包括：
 
 这是一个**正在成长的联机Mod**，而不是已经完美的作品。
 
-## 资源扩展工具
-
-[**ResourceEx**](https://github.com/MetaMikuAI/MetaMystia/tree/main/ResourceEx)是MetaMystia提供的资源扩展模块，旨在帮助创作者为《东方夜雀食堂》添加**自定义资源内容**。
-
-为了方便创作者们为游戏添加自定义资源，项目还提供了配套工具：**MetaMystia‑ResourceEx‑Editor**
-
-这是一个为MetaMystia开发的**在线资源描述文件编辑器**，用于创建和编辑扩展资源描述文件（`ResourceEx.json`）。
-
-- 可视化编辑资源描述，无需手写 JSON
-- 无需本地开发环境，浏览器即可使用
-- 适合希望尝试自定义内容或参与制作的玩家与创作者
-
-相关链接：
-
-- GitHub：[https://github.com/MetaMikuAI/MetaMystia-ResourceEx-Editor](https://github.com/MetaMikuAI/MetaMystia-ResourceEx-Editor)
-- 使用说明：[https://github.com/MetaMikuAI/MetaMystia/tree/main/ResourceEx](https://github.com/MetaMikuAI/MetaMystia/tree/main/ResourceEx)
-- 在线体验：[https://editor.meta-mystia.izakaya.cc](https://editor.meta-mystia.izakaya.cc)
-
 ## 鸣谢
 
 - 第一原作：**ZUN@上海アリス幻樂団**
