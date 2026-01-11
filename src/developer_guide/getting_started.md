@@ -17,7 +17,7 @@
 4. 下载最新的**BepInEx-Unity.IL2CPP-win-x64**：
    [https://builds.bepinex.dev/projects/bepinex_be](https://builds.bepinex.dev/projects/bepinex_be)
 
-    并将其完整解压至游戏的安装根目录（即 `Touhou Mystia Izakaya.exe` 所在目录）。
+    并将其完整解压至游戏的安装根目录（即`Touhou Mystia Izakaya.exe`所在目录）。
 
 5. 打开项目文件`MetaMystia.csproj`，将游戏的安装路径填写到`<GamePath>`标签中：
 
@@ -112,4 +112,4 @@ dnSpy插件，用于将Cpp2IL的分析结果整合进dnSpy视图，在查看il2c
 5. 额外备份生成的`GameAssembly.dll.i64`数据库文件
 
 > [!TIP]
-> 动态调试时由于**ASLR**，模块的运行时基址（如 `0x7FFF25021000`）会与静态分析时的地址（如 `0x180001000`）不同，容易造成地址对照混乱。保留一份原始静态数据库可以避免IDA的Rebase影响静态分析。
+> 动态调试时由于**ASLR**，模块的运行时基址（如`0x7FFF25021000`）会与静态分析时的地址（如`0x180001000`）不同，容易造成地址对照混乱。保留一份原始静态数据库可以避免IDA的Rebase影响静态分析。
