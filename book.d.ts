@@ -3,5 +3,6 @@ declare var Fancybox:
 	| undefined;
 
 interface Window {
+	__domReadyScriptRan: boolean | undefined;
 	_paq: unknown[] | undefined;
 }

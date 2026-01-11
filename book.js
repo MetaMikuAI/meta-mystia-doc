@@ -111,6 +111,11 @@ function waitDomReady() {
 })();
 
 waitDomReady().then(() => {
+	if (window.__domReadyScriptRan) {
+		return;
+	}
+	window.__domReadyScriptRan = true;
+
 	/**
 	 * @description Open external links in a new tab
 	 */
