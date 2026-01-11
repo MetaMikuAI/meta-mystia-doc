@@ -5,8 +5,8 @@ authors = ["AnYiEE", "MetaMikuAI"]
 language = "zh-CN"
 
 [output.html]
-additional-css = ["book.css", "assets/fancybox/fancybox.css"]
-additional-js = ["book.js", "assets/search/fzf.umd.js", "assets/search/elasticlunr.js", "assets/fancybox/fancybox.umd.js"]
+additional-css = ["custom.css", "assets/fancybox/fancybox.css"]
+additional-js = ["custom.js", "assets/search/fzf.umd.js", "assets/search/elasticlunr.js", "assets/fancybox/fancybox.umd.js"]
 mathjax-support = true
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/MetaMikuAI/MetaMystia"

@@ -1,5 +1,5 @@
 // @ts-check
-/// <reference types="./book.d.ts" />
+/// <reference types="./custom.d.ts" />
 
 /**
  * @param {string} url
