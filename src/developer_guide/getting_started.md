@@ -1,6 +1,6 @@
 # 开发入门
 
-欢迎加入**MetaMystia**的开发。本指南面向具备一定软件开发经验的开发者，假设您熟悉C#及.NET生态，但可能尚未接触过Il2Cpp游戏、逆向工程或Mod开发。文档将覆盖项目编译、工具准备，以及最基础的逆向分析流程，帮助您建立完整的开发环境与认知框架。
+欢迎加入**MetaMystia**的开发。本指南面向具备一定软件开发经验的开发者，假设您熟悉C#及.NET生态，但可能尚未接触过il2cpp游戏、逆向工程或Mod开发。文档将覆盖项目编译、工具准备，以及最基础的逆向分析流程，帮助您建立完整的开发环境与认知框架。
 
 ## 编译项目
 
@@ -25,9 +25,9 @@
     <GamePath>D:\SteamLibrary\steamapps\common\Touhou Mystia Izakaya</GamePath>
     ```
 
-    该路径用于在编译阶段定位Il2Cpp生成的中间产物与符号文件。
+    该路径用于在编译阶段定位il2cpp生成的中间产物与符号文件。
 
-6. 启动游戏一次，在进入主菜单后退出。此步骤用于触发BepInEx及Il2Cpp相关文件的初始化生成。
+6. 启动游戏一次，在进入主菜单后退出。此步骤用于触发BepInEx及il2cpp相关文件的初始化生成。
 
 7. 使用任意支持.NET Solution的IDE（如Visual Studio）打开仓库根目录下的`MetaMystia.sln`。
 
@@ -41,7 +41,7 @@
 
 #### IDA Pro
 
-用于对`GameAssembly.dll`进行反汇编分析，并在必要时进行动态调试。对于Il2Cpp游戏，IDA是理解底层执行逻辑的重要工具。
+用于对`GameAssembly.dll`进行反汇编分析，并在必要时进行动态调试。对于il2cpp游戏，IDA是理解底层执行逻辑的重要工具。
 
 - 官方网站：[https://hex-rays.com/ida-pro](https://hex-rays.com/ida-pro)
 
@@ -50,13 +50,13 @@
 
 #### dnSpy
 
-用于静态分析.NET程序集。在Il2Cpp场景下，主要用于查看Il2CppDumper生成的Dummy DLL，以快速理解类结构、字段布局与方法签名。
+用于静态分析.NET程序集。在il2cpp场景下，主要用于查看il2cppDumper生成的Dummy DLL，以快速理解类结构、字段布局与方法签名。
 
 - GitHub仓库：[https://github.com/dnSpy/dnSpy](https://github.com/dnSpy/dnSpy)
 
 #### Il2CppDumper
 
-用于分析Il2Cpp生成的二进制文件，自动还原符号信息，并生成供dnSpy与IDA使用的辅助文件。
+用于分析il2cpp生成的二进制文件，自动还原符号信息，并生成供dnSpy与IDA使用的辅助文件。
 
 - GitHub仓库：[https://github.com/Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
 
@@ -70,13 +70,13 @@
 
 #### dnSpy.Cpp2IL
 
-dnSpy插件，用于将Cpp2IL的分析结果整合进dnSpy视图，在查看Il2Cpp还原代码时提供更丰富的信息。
+dnSpy插件，用于将Cpp2IL的分析结果整合进dnSpy视图，在查看il2cpp还原代码时提供更丰富的信息。
 
 - 安装参考：[https://github.com/BadRyuner/dnspy.Cpp2IL?tab=readme-ov-file#how-to-install](https://github.com/BadRyuner/dnspy.Cpp2IL?tab=readme-ov-file#how-to-install)
 
 ## 逆向分析准备
 
-本节介绍如何利用上述工具，对游戏的Il2Cpp产物进行一次基础、可复用的分析准备流程。完成本节后，您应当能够在dnSpy中浏览游戏逻辑结构，并在IDA中进行符号化的反汇编分析。
+本节介绍如何利用上述工具，对游戏的il2cpp产物进行一次基础、可复用的分析准备流程。完成本节后，您应当能够在dnSpy中浏览游戏逻辑结构，并在IDA中进行符号化的反汇编分析。
 
 ### 使用Il2CppDumper还原符号
 

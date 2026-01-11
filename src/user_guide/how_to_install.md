@@ -7,8 +7,8 @@
 1. 打开**BepInEx BE**的官方构建页面：
    [https://builds.bepinex.dev/projects/bepinex_be](https://builds.bepinex.dev/projects/bepinex_be)
 
-2. 在页面中选择适用于《[东方夜雀食堂](https://store.steampowered.com/app/1584090/)》的**Il2Cpp**版本。
-   注意：本游戏使用的是**Il2Cpp**，请选择对应版本，否则无法正常运行。
+2. 在页面中选择适用于《[东方夜雀食堂](https://store.steampowered.com/app/1584090/)》的**il2cpp**版本。
+   注意：本游戏使用的是**il2cpp**，请选择对应版本，否则无法正常运行。
 
 3. 对于绝大多数玩家，下载下图中标注的版本即可：
 
