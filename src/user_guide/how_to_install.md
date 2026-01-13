@@ -55,17 +55,22 @@
 
     如果`plugins`文件夹不存在，您可以手动创建一个。
 
-3. 再次启动游戏。
+3. 如果您想在游戏中加入由MetaMystia所提供的额外内容（如：新的稀客），您还需要下载最新的**ResourceExample-\*.zip**。
+
+    下载完成后，将文件放入以下目录（**无需解压**）：
+
+    ```plaintext
+    游戏根目录/ResourceEx
+    ```
+
+    如果`ResourceEx`文件夹不存在，您可以手动创建一个。
+
+    GitHub的releases中可能不是每个都会附带**ResourceExample-\*.zip**，您可以在最近一个提供此文件的release中下载。
+
+4. 再次启动游戏。
    当游戏左下角出现白色提示文字时，表示Mod已成功加载：
 
     ![成功安装后的输出](./how_to_install.assets/image-20251231115308622.png)
 
-## 配置资源扩展ResourceEx（可选）
-
-0. 备份游戏存档，以防止意外情况发生。
-1. 在游戏根目录创建一个名为`ResourceEx`的文件夹
-2. 从以下任意地址，下载资源包如`ResourceExample.zip`，**直接**放到`ResourceEx`文件夹**无需解压**
-    - GitHub：
-      [https://github.com/MetaMikuAI/MetaMystia/releases](https://github.com/MetaMikuAI/MetaMystia/releases)
-    - 本站服务器：
-      [https://url.izakaya.cc/getMetaMystia](https://url.izakaya.cc/getMetaMystia)
+> [!TIP]
+> MetaMystia正在快速迭代以修复问题、添加和完善功能，而您下载的文件并不会自动更新。如果您遇到了任何问题，您可以再次前往上述网址查看我们是否已经发布了对应的修复版本。
