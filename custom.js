@@ -78,8 +78,9 @@
 	};
 
 	(() => {
-		if (location.hostname.endsWith('.izakaya.cc')) {
-			const ANALYTICS_BASE_URL = 'https://track.izakaya.cc';
+		const BASE_URL = 'izakaya.cc';
+		if (location.hostname.endsWith(`.${BASE_URL}`)) {
+			const ANALYTICS_BASE_URL = `https://track.${BASE_URL}`;
 			const ANALYTICS_API_URL = `${ANALYTICS_BASE_URL}/api.php`;
 			const ANALYTICS_SCRIPT_URL = `${ANALYTICS_BASE_URL}/api.js`;
 			const ANALYTICS_SITE_ID = '12';
@@ -97,8 +98,10 @@
 			push(
 				['enableHeartBeatTimer'],
 				['enableLinkTracking'],
+				['setCookieDomain', `*.${BASE_URL}`],
 				['setRequestMethod', 'GET'],
 				['setTrackerUrl', ANALYTICS_API_URL],
+				['setSecureCookie', true],
 				['setSiteId', ANALYTICS_SITE_ID]
 			);
 
