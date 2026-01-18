@@ -41,13 +41,13 @@
 
 ## 二、下载安装Mod {#install_mod}
 
-1. 从以下任一地址下载最新版本的**MetaMystia.dll**（推荐通过GitHub）：
+1. 从以下任一地址下载<span class="version-dll">最新的**MetaMystia-v\*.dll**</span>（推荐通过GitHub）：
     - GitHub：
       [https://github.com/MetaMikuAI/MetaMystia/releases](https://github.com/MetaMikuAI/MetaMystia/releases)
     - 本站服务器：
       [https://url.izakaya.cc/getMetaMystia](https://url.izakaya.cc/getMetaMystia)
 
-2. 下载完成后，将**MetaMystia.dll**文件放入以下目录：
+2. 下载完成后，将<span class="version-dll">**MetaMystia-v\*.dll**</span>放入以下目录：
 
     ```plaintext
     游戏根目录/BepInEx/plugins
@@ -55,7 +55,7 @@
 
     如果`plugins`文件夹不存在，您可以手动创建一个。
 
-3. 如果您想在游戏中加入由MetaMystia所提供的额外内容（如：新的稀客），您还需要下载最新的**ResourceExample-\*.zip**。
+3. 如果您想在游戏中加入由MetaMystia所提供的额外内容（如：新的稀客），您还需要下载<span class="version-zip">最新的**ResourceExample-v\*.zip**</span>。
 
     下载完成后，将文件放入以下目录（**无需解压**）：
 
@@ -65,7 +65,7 @@
 
     如果`ResourceEx`文件夹不存在，您可以手动创建一个。
 
-    GitHub的releases中可能不是每个都会附带**ResourceExample-\*.zip**，您可以在最近一个提供此文件的release中下载。
+    GitHub的releases中可能不是每个都会附带<span class="version-zip">**ResourceExample-v\*.zip**</span>，您可以在最近一个提供此文件的release中下载。
 
 4. 再次启动游戏。
    当游戏左下角出现白色提示文字时，表示Mod已成功加载：

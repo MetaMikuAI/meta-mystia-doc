@@ -189,5 +189,41 @@
 				}
 			}, 50);
 		})();
+
+		/**
+		 * @description Fetch and display the latest version information
+		 */
+		(async () => {
+			const dllElements = document.querySelectorAll('span.version-dll');
+			const zipElements = document.querySelectorAll('span.version-zip');
+			if (dllElements.length === 0 && zipElements.length === 0) {
+				return;
+			}
+
+			const response = await fetch(
+				'https://api.izakaya.cc/version/meta-mystia'
+			);
+			if (!response.ok) {
+				return;
+			}
+
+			/** @type {{dll: string | null; zip: string | null}} */
+			const data = await response.json();
+
+			if (data.dll !== null) {
+				dllElements.forEach((el) => {
+					el.innerHTML = el.innerHTML
+						.replace('*', data.dll)
+						.replace('最新的', '');
+				});
+			}
+			if (data.zip !== null) {
+				zipElements.forEach((el) => {
+					el.innerHTML = el.innerHTML
+						.replace('*', data.zip)
+						.replace('最新的', '');
+				});
+			}
+		})();
 	});
 })();
