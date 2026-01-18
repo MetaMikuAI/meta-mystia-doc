@@ -28,7 +28,7 @@ MetaMystia内置了一个**游戏内控制台**，用于输入联机相关指令
 
 - `/mp start server`启动联机服务（作为房主使用）
 - `/mp stop`停止当前联机服务
-- `/mp connect <IP地址>`连接到指定IP地址的联机房间（请将`<IP地址>`替换为房主的实际IP）
+- `/mp connect <IP地址>`连接到指定IP地址的联机房间（请将`<IP地址>`替换为房主的实际IP，不要用尖括号包裹）
 - `/mp disconnect`断开当前连接
 - `/mp status`查看当前联机状态
 
@@ -57,7 +57,7 @@ MetaMystia当前使用的是**P2P（点对点）联机方式**，即玩家之间
 如果出现**连接超时或无法连接**的情况，请优先检查：
 
 - 主机是否成功执行`/mp start server`，而不是`/mp start`或`/mp start serve`等错误命令
-- 客机是否在主机开启联机后成功执行`/mp connect <IP地址>`，而不是`/mp connect`、`/mp start client`或`/mp start cilent`等错误命令
+- 客机是否在主机开启联机后成功执行`/mp connect <IP地址>`（不含尖括号），而不是`/mp connect`、`/mp start client`或`/mp start cilent`等错误命令
 - IP是否正确，主机与客机之间是否可以正常通信，**防火墙**是否阻止了游戏的网络通信
   （可尝试临时关闭防火墙，或为游戏添加放行规则）
 
@@ -72,8 +72,8 @@ MetaMystia当前使用的是**P2P（点对点）联机方式**，即玩家之间
 在群内提问前，**请先确认以下事项**，很多问题可以通过自查直接解决：
 
 - 您遇到的问题未在[常见问题（FAQ）](./faq.md)中列出
-- 是否已尝试使用最新版本的Mod（[如何最新Mod](./how_to_install.md#update_mod)）
-- 是否已确认双方游戏版本及Mod版本一致
+- 是否已尝试使用最新版本的Mod（[如何更新Mod](./how_to_install.md#update_mod)）
+- 是否已确认双方游戏版本、Mod版本一致及ResourceEx资源包版本一致（如有）
 - 是否已确认双方网络环境正常（IP、组网工具、防火墙）
 - 是否已确认`/mp status`输出正常
 
