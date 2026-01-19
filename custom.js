@@ -228,5 +228,51 @@
 				});
 			}
 		})();
+
+		/**
+		 * @description Translate the search results header
+		 */
+		(() => {
+			const el = document.getElementById('mdbook-searchresults-header');
+			if (el === null) {
+				return;
+			}
+
+			/** @type {(node: HTMLElement | null) => void} */
+			const replaceText = (node) => {
+				if (!node || !node.textContent) {
+					return;
+				}
+
+				const regex = /^(\d+) search results for\s+'(.+)':$/i;
+				const match = node.textContent.trim().match(regex);
+				if (match === null) {
+					return;
+				}
+
+				const count = match[1];
+				const keyword = match[2];
+				node.textContent = `${count}条搜索结果：${keyword}`;
+			};
+
+			const observer = new MutationObserver((mutations) => {
+				for (const mutation of mutations) {
+					if (
+						mutation.type === 'characterData' ||
+						mutation.type === 'childList'
+					) {
+						replaceText(el);
+						break;
+					}
+				}
+			});
+
+			replaceText(el);
+			observer.observe(el, {
+				characterData: true,
+				childList: true,
+				subtree: true,
+			});
+		})();
 	});
 })();
