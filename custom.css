@@ -37,6 +37,18 @@ p > a:only-child > img:only-child {
 	max-height: 70vh;
 }
 
+.header-in-summary {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.header-in-summary:hover {
+	overflow: unset;
+	text-overflow: unset;
+	white-space: unset;
+}
+
 .menu-title {
 	font-weight: 400;
 }
