@@ -12,7 +12,7 @@
 
 ## 一键安装 {#onclick_install}
 
-我们提供了一键安装、升级、卸载 MetaMystia Mod 的工具，您可酌情使用。
+我们提供了一键安装、升级、卸载MetaMystia Mod的工具，推荐您使用这个工具来方便地进行相关管理操作。
 
 1. 从以下任一地址下载<span class="version-manager">最新的**meta-mystia-manager-v\*.exe**</span>：
     - GitHub：
