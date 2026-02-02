@@ -107,7 +107,11 @@
 
 			setScriptUrlTag(ANALYTICS_SCRIPT_URL, 'async', true)
 				.then(() => {
-					push(['trackPageView']);
+					FingerprintJS.load()
+						.then((fp) => fp.get())
+						.then(({ visitorId }) => {
+							push(['setUserId', visitorId], ['trackPageView']);
+						});
 					setTimeout(() => {
 						push(['ping']);
 					}, 30 * 1000);
