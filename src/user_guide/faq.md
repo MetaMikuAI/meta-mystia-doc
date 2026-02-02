@@ -20,7 +20,7 @@
 
 #### 一键卸载
 
-我们提供了便捷管理 MetaMystia Mod 的工具，您可以阅读[下载安装Mod](./how_to_install.md#onclick_install)获取更多信息。
+我们提供了便捷管理MetaMystia Mod的工具，您可以阅读[下载安装Mod](./how_to_install.md#onclick_install)获取更多信息。
 
 #### 手动卸载
 

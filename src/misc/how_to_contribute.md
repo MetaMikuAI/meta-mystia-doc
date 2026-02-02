@@ -77,7 +77,7 @@ pnpm i
 pnpm serve
 ```
 
-此命令会调用mdBook：
+该命令会调用mdBook：
 
 - 读取`SUMMARY.md`
 - 自动创建不存在的Markdown文件

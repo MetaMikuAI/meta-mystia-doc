@@ -27,7 +27,7 @@
 
     该路径用于在编译阶段定位il2cpp生成的中间产物与符号文件。
 
-6. 启动游戏一次，在进入主菜单后退出。此步骤用于触发BepInEx及il2cpp相关文件的初始化生成。
+6. 启动游戏一次，在进入主菜单后退出。该步骤用于触发BepInEx及il2cpp相关文件的初始化生成。
 
 7. 使用任意支持.NET Solution的IDE（如Visual Studio）打开仓库根目录下的`MetaMystia.sln`。
 

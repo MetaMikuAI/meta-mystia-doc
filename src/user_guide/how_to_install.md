@@ -2,14 +2,6 @@
 
 本文将引导您完成**BepInEx**及**MetaMystia Mod**的安装流程。
 
-## 安装前你需要知道的几件事
-
-在开始之前，先简单说明几个名词：
-
-- **Mod**：玩家制作的“扩展插件”，安装到原版游戏里，用来增加新功能
-- **BepInEx**：一个“Mod加载器”，可以理解为“专门帮游戏启动Mod的小程序”
-- **游戏根目录**：游戏安装的文件夹，也就是能看到`Touhou Mystia Izakaya.exe`这个文件的地方
-
 ## 一键安装 {#onclick_install}
 
 我们提供了一键安装、升级、卸载MetaMystia Mod的工具，推荐您使用这个工具来方便地进行相关管理操作。
@@ -23,7 +15,17 @@
 2. 下载完成后双击以运行文件
 3. 根据提示选择您需要的功能
 
+    ![MetaMystia管理工具运行截图](./how_to_install.assets/image-20260202110344.png)
+
 ## 手动安装
+
+### 安装前你需要知道的几件事
+
+在开始之前，先简单说明几个名词：
+
+- **Mod**：玩家制作的“扩展插件”，安装到原版游戏里，用来增加新功能
+- **BepInEx**：一个“Mod加载器”，可以理解为“专门帮游戏启动Mod的小程序”
+- **游戏根目录**：游戏安装的文件夹，也就是能看到`Touhou Mystia Izakaya.exe`这个文件的地方
 
 如果您没有接触过“Mod”或电脑文件操作，也不用担心——只要一步一步照着做，就可以完成安装。
 
@@ -36,10 +38,10 @@
 1. 打开**BepInEx BE**的官方构建页面：
    [https://builds.bepinex.dev/projects/bepinex_be](https://builds.bepinex.dev/projects/bepinex_be)
 
-2. 在页面中选择适用于《[东方夜雀食堂](https://store.steampowered.com/app/1584090/)》的**il2cpp**版本。
+2. 在页面中选择适用于《[东方夜雀食堂](https://store.steampowered.com/app/1584090/)》的**il2cpp**版本（BepInEx Unity (IL2CPP) for Windows (x64) games）。
    注意：本游戏使用的是**il2cpp**，请选择对应版本，否则无法正常运行。
 
-3. 对于绝大多数玩家，下载下图中标注的版本即可：
+3. 对于绝大多数玩家，下载下图中标注的版本即可（图中版本号可能过时，您可下载对应的最新版）：
 
     ![BepInEx版本列表](./how_to_install.assets/image-20251231114022353.png)
 
@@ -69,8 +71,7 @@
     ```
 
 5. 启动游戏。
-   如果游戏启动时弹出一个**黑色控制台窗口**，说明BepInEx已成功安装。
-   首次启动时加载时间可能稍长，请耐心等待。
+   如果游戏启动时弹出一个**黑色控制台窗口**，说明BepInEx已成功安装。首次启动时加载时间可能较长，请耐心等待。
 
 ### 二、下载安装Mod {#install_mod}
 
@@ -109,7 +110,7 @@
 
 #### 一键升级
 
-我们提供了便捷管理 MetaMystia Mod 的工具，您可以阅读[下载安装Mod](#onclick_install)获取更多信息。
+我们提供了便捷管理MetaMystia Mod的工具，您可以阅读[下载安装Mod](#onclick_install)获取更多信息。
 
 #### 手动升级
 
