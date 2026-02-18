@@ -17,6 +17,9 @@
 
     ![MetaMystia管理工具运行截图](./how_to_install.assets/image-20260202110344.png)
 
+> [!TIP]
+> 如果您使用Windows 8以下操作系统，您还需要下载`api-ms-win-core-synch-l1-2-0.dll`与`bcryptprimitives.dll`并将它们放在<span class="version-manager">`meta-mystia-manager-v*.exe`</span>的旁边（同级目录下）。
+
 ## 手动安装
 
 除非您有特别需要，否则推荐您使用[一键安装](#onclick_install)。
