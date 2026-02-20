@@ -28,7 +28,7 @@ $$
 
 ## 如何使用申请到的签名？
 
-在填写好资源包唯一标识符（label）和申请到的ID段后，资源包创作者只需点击"签名"按钮，粘贴进申请到的签名字符串并应用签名即可完成签名的添加。完成签名后，在线编辑器会自动对其进行校验，确保资源包的签名有效。
+在填写好资源包唯一标识符（label）和申请到的ID段后，资源包创作者只需点击“签名”按钮，粘贴申请到的签名字符串并应用签名即可完成签名的添加操作。在线编辑器会自动对其进行校验，确保资源包的签名有效。
 
 ![image-20260220093232888](./why_add_signature_check.assets/image-20260220093232888.png)
 
@@ -38,7 +38,7 @@ $$
 
 资源包创作者可修改`Touhou Mystia Izakaya/BepInEx/config/MetaMystia.cfg`中的`SignatureCheck`项从而禁用签名校验，以便在获得签名前进行临时开发与调试。
 
-若您关闭了签名校验却仍然被提示校验失败，可能是因为资源包中部分ID不在**声明的**ID段内。
+如您关闭了签名校验却仍然被提示校验失败，可能是因为资源包中部分ID不在**声明的**ID段内。
 
 如您对白名单签名机制不满意，也可使用自由区ID段。使用该区段ID的资源包不会被执行签名校验，但需自行承担ID冲突的风险。
 
@@ -46,5 +46,5 @@ $$
 
 全部已分配或不可用的ID段已经明确列出在下表中，资源包创作者在申请签名时请务必参考该表以避免申请到已分配或不可使用的ID段。
 
-[MetaMystia-ResourceEx ID 分配表
-https://docs.qq.com/sheet/DV2NvRFVKYmJBWGVK](https://docs.qq.com/sheet/DV2NvRFVKYmJBWGVK)。
+- MetaMystia-ResourceEx ID分配表：[
+https://docs.qq.com/sheet/DV2NvRFVKYmJBWGVK](https://docs.qq.com/sheet/DV2NvRFVKYmJBWGVK)
